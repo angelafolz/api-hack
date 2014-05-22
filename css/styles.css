@@ -1,0 +1,114 @@
+html, body, .categories {
+	height: 100%;
+}
+
+body {
+	background-color: #000;
+	color: #990033;
+	font: normal 20px/28px Arial, Helvetica, sans-serif;
+}
+
+.categories li:hover, .home:hover {
+	cursor: pointer;
+}
+
+.flyingtrapeze {
+	background-image: url("../images/flyingtrapeze.jpg");
+}
+.aerial {
+	background-image: url("../images/hoop.png");
+}
+.germanwheel {
+	background-image: url("../images/germanwheel.jpg");
+}
+.handbalancing {
+	background-image: url("../images/handbalancing.jpg");
+}
+.firejuggling {
+	background-image: url("../images/firejuggling.png");
+}
+
+
+/* main */
+
+.title {
+	position: absolute;
+	top: 35%;
+	right: 50%;
+	z-index: 2;
+}
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	text-align: right;
+	margin-right: -30px;
+}
+
+.categories li {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+li.flyingtrapeze {
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+	background-position: center top;
+}
+li.aerial {
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+	background-position: center top;
+}
+li.germanwheel {
+	bottom: 0;
+	left: 0;
+	width: 30%;
+	height: 50%;
+	background-position: left bottom;
+}
+li.handbalancing {
+	bottom: 0;
+	left: 50%;
+	margin-left: -15%;
+	width: 30%;
+	height: 50%;
+	background-position: center bottom;
+}
+li.firejuggling {
+	bottom: 0;
+	right: 0;
+	width: 20%;
+	height: 65%;
+	background-position: right bottom;
+}
+
+
+/* category-specific */
+
+.home {
+	width: 70px;
+	height: 70px;
+	background: url("../images/icon-home.png") no-repeat;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+
+.category {
+	display: none;
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 50px;
+	background-size: 30%;
+}
+.category h1 {
+	position: fixed;
+	top: 10px;
+	left: 20px;
+}
