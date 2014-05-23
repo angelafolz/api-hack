@@ -15,7 +15,7 @@ body {
 .flyingtrapeze {
 	background-image: url("../images/flyingtrapeze.jpg");
 }
-.aerial {
+.aerialhoop {
 	background-image: url("../images/hoop.png");
 }
 .germanwheel {
@@ -58,7 +58,7 @@ li.flyingtrapeze {
 	height: 50%;
 	background-position: center top;
 }
-li.aerial {
+li.aerialhoop {
 	top: 0;
 	right: 0;
 	width: 50%;
@@ -111,4 +111,19 @@ li.firejuggling {
 	position: fixed;
 	top: 10px;
 	left: 20px;
+}
+
+.feed {
+	width: 45%;
+	max-width: 640px;
+	margin-top: 50px;
+	margin-left: 40%;
+}
+.feed li {
+	margin-bottom: 30px;
+}
+.feed img {
+	width: 100%;
+	height: auto;
+	max-width: 640px;
 }
